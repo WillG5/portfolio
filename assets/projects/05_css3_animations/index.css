@@ -1,0 +1,53 @@
+#box{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    box-sizing: border-box;
+    /*box sizing defines how the width and height of an element are calculated: should they include padding and borders, or not.*/
+    border-radius: 10px;
+    /*border radius creates a corner radius of the box, you can also change the specific corners with a radius*/
+}
+
+@keyframes box{
+
+    from{border-radius: 40px; background-color: red; top: 0; left: 0;}/*@ 0 percent of the animation*/
+    to{ border-radius: 100px; background-color: blueviolet; top: 100px;}/*@ 100 percent of the animation*/
+    /*You can also add multiple codes within the curly brackets to manipulate the keyframes/animations to how you see fit*/
+}
+/*sets up the animation process*/
+#animations #box{
+    position: relative;
+    animation-name: box; /*This name is accompanied with the @keyframes code in css, you can name it whatever you want to but you have to make sure you call it in this step for it to properluy work */
+    animation-duration: 10s;/*This is how long the animation will last*/
+    animation-timing-function: ease-in-out;
+    animation-delay: 14s;/*This function delays the start of the animation*/
+    animation-iteration-count: 3;/*How many times do you want this animation to continue before it stops*/
+    animation-direction: alternate;/*In which way do you want animation to be played, i.e. from last keyframe to first*/
+
+    /*Shorthand way of the above code
+    animation: box 10s ease-in-out 2s 3 alternative;
+    */
+}
+
+#box2{
+    position: relative;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+#box2:hover{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    transition: all 4s;
+    transition-timing-function: ease-in-out;
+    /*For the transition, you can also utilize it in a shorthand way as well
+    transition: width 8s, height 2s, background 20s;
+    */
+}

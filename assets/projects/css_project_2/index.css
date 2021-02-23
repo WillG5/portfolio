@@ -1,0 +1,99 @@
+html{
+    margin: 0;
+    font-family: arial,sans-serif
+}
+
+#mainContent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#homeImg{
+    display: block;
+    width: 20%;
+   margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+#search{
+    display: block;
+    width: 35%;
+    height: 28px;
+   margin: 0 auto;
+    border-radius: 15px;
+    border: solid 2px lightgray;
+}
+button{
+    height: 30px;
+    background-color: lightgrey;
+}
+#bLinks{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.backColor{
+    font-size: small;
+    background-color: #f8f9fa;
+    border: 1px solid white;
+    font-weight: normal;
+}
+
+.backColor:hover{
+    border-color: lightgrey;
+}
+
+#topLinks{
+    display: inline;
+    float: right;
+}
+
+#topLinks2{
+    display: inline;
+    float: left;
+}
+
+#topLinks, #topLinks2{
+    font-size: 13px;
+    margin-top: 15px;
+    color: black;
+}
+
+#mainContent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 2px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#espSen{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+footer{
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+
+}
+
+#rightLinks{
+    float: right;
+}
+
+#leftLinks{
+    float: left;
+}
