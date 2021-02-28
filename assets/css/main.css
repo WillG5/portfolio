@@ -2946,7 +2946,7 @@ input, select, textarea {
 		header.major1 {
 			margin: 0 0 4rem 0;
 			text-align: center;
-			border: 5px solid black;
+			border: 3px solid black;
 			padding-top: 5%;
 		}
 
@@ -4694,23 +4694,30 @@ input, select, textarea {
 	}
 	/*Resume*/
 		#resumeLink{
-			border: 1px solid green;
-			padding: 5px;
-			
+			padding: 5px;			
 		}
 
 		.centerLine, .centerLine2, .centerLine3{
 			width: 20%;
-			margin: 20px auto;
+			margin: 5px auto;
 			display: inline-block;
 			text-align: left;
 		}
 
-
-
-		#skillSet, .centerline{
+		#skillSet{
+			line-height: 120%;
 			text-align: center;
+			word-spacing: 5px;
+			padding: 20px;
+
+			
 		}
+
+		#skillSet h2{
+			border-bottom:3px solid black;
+
+			margin: 0 0.25rem;
+		}		
 				
 #headUp{
 	line-height: 10px;
@@ -4721,17 +4728,19 @@ input, select, textarea {
 }
 
 #relatedEx{
-	margin-top: 10%;
 	padding: 20px;
-	border: 5px solid black;
 }
+#relatedEx h2{
+	border-bottom:3px solid black;
+	
 
+	
+}
 .relatedSub{
 	text-decoration: underline;
 }
 
 .relatedJob{
-	
 	text-align: center;
 }
 
@@ -4752,6 +4761,5 @@ input, select, textarea {
 
 .bioHead{
 	text-align: center;
-	border: solid 1px red;
 	background: white;
 }
