@@ -82,6 +82,11 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
+		#skillSet{
+			margin: 5px -80px;
+
+		}
+
 	}
 
 	html {
@@ -4702,13 +4707,15 @@ input, select, textarea {
 			margin: 5px auto;
 			display: inline-block;
 			text-align: left;
+			padding-top: 10px;
 		}
 
 		#skillSet{
-			line-height: 120%;
+			line-height: 150%;
 			text-align: center;
 			word-spacing: 5px;
 			padding: 20px;
+			
 
 			
 		}
